@@ -1,0 +1,53 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "DeathHub",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+
+local Tab1 = GUI:Tab{
+	Name = "Scripts",
+	Icon = "rbxassetid://8569322835"
+}
+
+Tab1:Button{
+	Name = "SilentAim",
+	Description = This script is from my video,
+    Callback = function() end
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/DeathReaperForLife/DeathReaperGuiV1/main/Source%27),true))()
+}
+
+Tab1:Button{
+	Name = "FE Equinox Hub",
+	Description = This script is from my video,
+	Callback = function() end
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DeathReaperForLife/DeathReaperGuiV1/main/Source1A),true))()
+}
+
+
+Tab1:Button{
+	Name = "Tune Car/Motorcycle Script",
+	Description = this modifies speed of cars/motorcycles,
+	Callback = function() end
+    loadstring(game:HttpGet(('https://github.com/AbamJelek/roblox-scripts/blob/main/A-Chassis%206%20Interactive%20GUI.lua),true))()
+}
+
+Tab1:Button{
+	Name = "Tune Car/Motorcycle Script#2",
+	Description = this modifies speed of cars/motorcycles,
+	Callback = function() end
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/AbamJelek/roblox-scripts/main/Universal%20Vehicle%20Script/Universal%20Vehicle%20Script.lua),true))()
+}
+
+
+
+GUI:Credit{
+	Name = "Raspberry",
+	Description = "Owner Of The Script",
+	V3rm = "Nothing",
+	Discord = "Raspberry#2918"
+}
